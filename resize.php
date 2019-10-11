@@ -59,4 +59,3 @@ function my_gallery_image($pid, $attid, $image_filepath) {
     // do something with $attachment image
 exec('wpcli --allow-root media regenerate '.$attid );
 }
-add_image_size( 'nomad-size', 500, 500 );
